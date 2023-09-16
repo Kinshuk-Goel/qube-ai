@@ -65,11 +65,6 @@ const HomePage = () => {
                     We firmly believe that &quot;qubes are not squares,&quot; emphasizing that AI is a multi-faceted realm encompassing creativity, ethics, and innovation.
                 </p>
 
-                <p className={styles.paragraph}>
-                    Contact us at <a href="mailto:qubeai2326@gmail.com">qubeai2326@gmail.com</a>
-                </p>
-
-
 
 
 
