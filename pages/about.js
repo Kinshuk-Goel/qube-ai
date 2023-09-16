@@ -1,3 +1,5 @@
+// about.js
+
 import React, { useEffect, useState } from "react";
 import styles from './index.module.scss';
 import Navbar from '../comps/Navbar';
@@ -10,3 +12,5 @@ const AboutPage = () => {
     );
 
 }
+
+export default AboutPage
