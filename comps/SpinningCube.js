@@ -11,7 +11,8 @@ const Cube = () => {
   });
 
   return (
-    <Box ref={cubeRef} args={[1, 1, 1]} position={[0, 0, 0]}>
+    <Box sx={{width: 300,
+      height: 300}} ref={cubeRef} args={[1, 1, 1]} position={[0, 0, 0]}>
       <meshBasicMaterial color="blue" />
     </Box>
   );
