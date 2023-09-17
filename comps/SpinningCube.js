@@ -12,7 +12,7 @@ const Cube = () => {
 
   return (
     <Box ref={cubeRef} args={[1, 1, 1]} position={[0, 0, 0]}>
-      <meshMatcapMaterial color="#000000" />
+      <meshMatcapMaterial color="#000000" bumpScale="0" />
     </Box>
   );
 };
