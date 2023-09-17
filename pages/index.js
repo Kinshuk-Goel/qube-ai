@@ -38,9 +38,12 @@ const HomePage = () => {
     }, []);
 
     return (
-        
+        <>
         <div className={styles.homepage}>
         <title>QUBE AI</title>
+        <head>
+            <link rel="icon" type="image/x-icon" href="comps\favicon.ico"/>
+        </head>
         {/* Removes the white border around website */}
             <style jsx>{`
                 body {
@@ -77,7 +80,7 @@ const HomePage = () => {
 
             
 
-        
+            </div>
         
             <div className={styles.rect}>
                 <p className={styles.paragraph}>
@@ -87,7 +90,7 @@ const HomePage = () => {
                 We firmly believe that &quot;qubes are not squares,&quot; emphasizing that AI is a multi-faceted realm encompassing creativity, ethics, and innovation.
                 </p>    
             </div>
-        </div>
+            </>
     );
 }
 
