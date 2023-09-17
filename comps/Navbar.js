@@ -12,9 +12,9 @@ const Navbar = () => {
 
             <div className={styles['navbar-menu']}>
 
-                <Link href="pages/about.js">
-                    <div className={styles['navbar-item']}>About</div>
-                </Link>
+                
+                    <div className={styles['navbar-item']}><Link href="pages/about.js">About</Link></div>
+                
 
                 <Link href="/contact">
                     <div className={styles['navbar-item']}>Contact</div>
