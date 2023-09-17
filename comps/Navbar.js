@@ -13,7 +13,7 @@ const Navbar = () => {
             <div className={styles['navbar-menu']}>
 
                 
-                    <div className={styles['navbar-item']}><Link href="pages/about.js">About</Link></div>
+                    <div className={styles['navbar-item']}><Link href="pages/about">About</Link></div>
                 
 
                 <Link href="/contact">

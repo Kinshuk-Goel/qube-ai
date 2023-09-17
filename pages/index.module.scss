@@ -26,7 +26,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: max-content;
+    background: linear-gradient(to top, #1786d0, #a638d2);
+
+}
+
+.homepage2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
     background: linear-gradient(to top, #1786d0, #a638d2);
 
 }
