@@ -14,7 +14,7 @@ const DynamicSpinningCube = dynamic(() => import('../comps/SpinningCube'), {
 const HomePage = () => {
     const [startAnimation, setStartAnimation] = useState(false);
     const [animationText, setAnimationText] = useState("");
-    const text = "Qubes are not squares";
+    const text = "QUBE AI";
 
     useEffect(() => {
         if (startAnimation) {
@@ -73,6 +73,11 @@ const HomePage = () => {
             <div className={styles.square} id="spinning-cube-container">
                 <DynamicSpinningCube />
             </div>
+
+            <div className={styles.rect}>
+                
+            </div>
+
         </div>
     );
 }
