@@ -12,7 +12,7 @@ const Cube = () => {
 
   return (
     <Box ref={cubeRef} args={[1, 1, 1]} position={[0, 0, 0]}>
-      <meshNormalMaterial color="0xffffff" />
+      <meshToonMaterial color="0xffffff" />
     </Box>
   );
 };
