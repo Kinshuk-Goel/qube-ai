@@ -42,7 +42,7 @@ const HomePage = () => {
         <div className={styles.homepage}>
         <title>QUBE AI</title>
         <head>
-            <link rel="icon" type="image/x-icon" href="comps\favicon.ico"/>
+            <link rel="icon" type="image/x-icon" href="comps/favicon.ico"/>
         </head>
         {/* Removes the white border around website */}
             <style jsx>{`
