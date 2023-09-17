@@ -46,7 +46,7 @@ function Box(props) {
       onPointerOver={(event) => (event.stopPropagation(), hover(true))}
       onPointerOut={(event) => hover(false)}>
       <boxGeometry args={[1, 1, 1]} />
-      <meshLambertMaterial color={hovered ? '#b51fab' : 'hotpink'} />
+      <meshDepthMaterial color={hovered ? '#b51fab' : 'hotpink'} />
     </mesh>
   )
 }
@@ -69,7 +69,7 @@ function Box2(props) {
       onPointerOver={(event) => (event.stopPropagation(), hover(true))}
       onPointerOut={(event) => hover(false)}>
       <boxGeometry args={[1, 1, 1]} />
-      <meshLambertMaterial color={hovered ? '#b51fab' : 'hotpink'} />
+      <meshDepthMaterial color={hovered ? '#b51fab' : 'hotpink'} />
     </mesh>
   )
 }
