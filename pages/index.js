@@ -45,7 +45,7 @@ const HomePage = () => {
             <link rel="icon" type="image/x-icon" href="comps/favicon.ico"/>
         </head>
         {/* Removes the white border around website */}
-            <style jsx>{`
+            <style jsx global>{`
                 body {
                     margin: 0;
                     padding: 0;
