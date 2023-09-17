@@ -41,7 +41,7 @@ const HomePage = () => {
         <div className={styles.homepage}>
         
         {/* Removes the white border around website */}
-            <style jsx global>{`
+            <style jsx>{`
                 body {
                     margin: 0;
                     padding: 0;
@@ -74,17 +74,19 @@ const HomePage = () => {
                 <DynamicSpinningCube />
             </div>
 
-            <div className={styles.rect}>
-            <p className={styles.paragraph}>
-                    QUBE Foundation is a non-profit organization dedicated to fostering curiosity and knowledge in emerging technologies. Our mission is to empower students with a profound understanding of cutting-edge technology trends.   
-                </p>
-                <p className={styles.paragraph}>
-                    We firmly believe that &quot;qubes are not squares,&quot; emphasizing that AI is a multi-faceted realm encompassing creativity, ethics, and innovation.
-                </p>    
-            </div>
+            
 
-        </div>
         
+        
+        <div className={styles.rect}>
+        <p className={styles.paragraph}>
+                QUBE Foundation is a non-profit organization dedicated to fostering curiosity and knowledge in emerging technologies. Our mission is to empower students with a profound understanding of cutting-edge technology trends.   
+            </p>
+            <p className={styles.paragraph}>
+                We firmly believe that &quot;qubes are not squares,&quot; emphasizing that AI is a multi-faceted realm encompassing creativity, ethics, and innovation.
+            </p>    
+        </div>
+    </div>
     );
 }
 
