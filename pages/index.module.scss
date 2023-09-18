@@ -126,6 +126,10 @@
     padding: 105px 0 105px;
 }
 
+.main{
+   scroll-behavior: smooth;
+}
+
 .blinkingUnderscore {
     animation: blink 0.5s infinite; /* Change the animation duration */
 }

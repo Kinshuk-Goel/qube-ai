@@ -38,7 +38,7 @@ const HomePage = () => {
     }, []);
 
     return (
-        <>
+        <div className={styles.main}>
         <div className={styles.homepage}>
         <title>QUBE AI</title>
         <head>
@@ -91,7 +91,7 @@ const HomePage = () => {
                 </p>    
             </div>
             </div>
-            </>
+            </div>
     );
 }
 
