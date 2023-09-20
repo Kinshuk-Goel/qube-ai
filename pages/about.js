@@ -8,7 +8,7 @@ import dynamic from 'next/dynamic';
 const AboutPage = () => {
 
     return(
-        <p> test</p>
+        <p>Another about page</p>
     );
 
 }
