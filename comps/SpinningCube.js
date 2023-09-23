@@ -8,7 +8,7 @@ function Box(props) {
     const ref = useRef();
     const [hovered, hover] = useState(false);
     const [clicked, click] = useState(false);
-    const [color, setColor] = useState('#b51fab'); // Initial color
+    const [color, setColor] = useState('#000000'); // Initial color
     const colorCycleSpeed = 0.1; // Adjust the speed of the color cycle
 
     useFrame((state, delta) => {
