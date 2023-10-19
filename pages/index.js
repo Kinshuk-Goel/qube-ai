@@ -62,23 +62,12 @@ const HomePage = () => {
                     <span className={styles.blinkingUnderscore}>_</span>
                 </header>
 
-                {/*<p className={styles.paragraph}>
-                    QUBE  is a non-profit organization dedicated to fostering curiosity and knowledge in emerging technologies. Our mission is to empower students with a profound understanding of cutting-edge technology trends.   
-                </p>
-                <p className={styles.paragraph}>
-                    We firmly believe that &quot;qubes are not squares,&quot; emphasizing that AI is a multi-faceted realm encompassing creativity, ethics, and innovation.
-                </p>*/} 
-
-
-
-
             </div>
 
             <div className={styles.square} id="spinning-cube-container">
                 <DynamicSpinningCube />
             </div>
 
-            
 
             </div>
             <div className={styles.homepage2}>

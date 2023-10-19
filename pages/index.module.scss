@@ -93,18 +93,27 @@
 
 .rect {
     position: relative;
-    width: 900px;
-    height: 600px;
+    width: 800px;
+    height: 800px;
     border-radius: 10%;
-    background-color: rgba(12, 11, 11, 0.589);
+    background-color: rgba(255, 255, 255, 0.387);
     backdrop-filter: blur(10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     margin: 0 20px;
-    text-align: center; /* Add this line */
+    text-align: center;
     margin-top: 25px;
     margin-bottom: 25px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.rect p {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin: 20px; /* Add spacing around the paragraphs */
+}
+
 
 .h1 {
     text-align: left; /* Align text to the left */
